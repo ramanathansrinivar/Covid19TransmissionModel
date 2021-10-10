@@ -1,0 +1,237 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="880074121" file="C:\Users\Admin\Dropbox\Covid19\SEIR\Ver.11\Covid19TransmissionModel.prj" location="C:\Users\Admin\Dropbox\Covid19\SEIR\Ver.11" name="Covid19TransmissionModel" preferred-package-location="C:\Users\Admin\Dropbox\Covid19\SEIR\Ver.11\Covid19TransmissionModel\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>Covid19TransmissionModel</param.appname>
+    <param.icon>${PROJECT_ROOT}\Covid19TransmissionModel_resources\icon.ico</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\Covid19TransmissionModel_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\Covid19TransmissionModel_resources\icon_32.png</file>
+      <file>${PROJECT_ROOT}\Covid19TransmissionModel_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\Covid19TransmissionModel_resources\icon_16.png</file>
+    </param.icons>
+    <param.version>2.0</param.version>
+    <param.authnamewatermark>S. Ramanathan and Sujatha Sunil</param.authnamewatermark>
+    <param.email>srinivar@iitm.ac.in, sujatha@icgeb.res.in</param.email>
+    <param.company>IIT Madras, India and ICGEB, India</param.company>
+    <param.summary>Authors: S. Ramanathan (IIT Madras) and Sujatha Sunil (ICGEB)</param.summary>
+    <param.description>This is a SEIR model, to predict the propagation of Covid19. This differentiates between symptomatic and asymptomatic patients, and those who are treated and those who are not, etc. and takes age distribution also into account</param.description>
+    <param.screenshot>${PROJECT_ROOT}\CTM_Icon.png</param.screenshot>
+    <param.guid />
+    <param.installpath.string>IIT Madras, ICGEB\CTM\v2.0\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo>${PROJECT_ROOT}\CTM_Icon.png</param.logo>
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\Covid19TransmissionModel\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\Covid19TransmissionModel\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\Covid19TransmissionModel\for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}\Covid19TransmissionModel</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>false</param.web.mcr>
+    <param.package.mcr>true</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>CTM_2_0_Lite</param.web.mcr.name>
+    <param.package.mcr.name>CTM_2_0_Full</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <param.native.matlab>false</param.native.matlab>
+    <param.checkbox>false</param.checkbox>
+    <param.example />
+    <param.help.text>Syntax 
+	  -? 
+	 
+ Input Arguments 
+	 -?  print help on how to use the application 
+	 input arguments</param.help.text>
+    <unset>
+      <param.guid />
+      <param.installpath.combo />
+      <param.install.notes />
+      <param.target.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.logdir />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.target.type />
+      <param.support.packages />
+      <param.no.mcr />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+      <param.native.matlab />
+      <param.checkbox />
+      <param.example />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\Covid19Main.mlapp</file>
+    </fileset.main>
+    <fileset.resources />
+    <fileset.package>
+      <file>${PROJECT_ROOT}\AN.xlsx</file>
+      <file>${PROJECT_ROOT}\ANParamSet.xlsx</file>
+      <file>${PROJECT_ROOT}\AP.xlsx</file>
+      <file>${PROJECT_ROOT}\APParamSet.xlsx</file>
+      <file>${PROJECT_ROOT}\AR.xlsx</file>
+      <file>${PROJECT_ROOT}\ARParamSet.xlsx</file>
+      <file>${PROJECT_ROOT}\AS.xlsx</file>
+      <file>${PROJECT_ROOT}\ASParamSet.xlsx</file>
+      <file>${PROJECT_ROOT}\BR.xlsx</file>
+      <file>${PROJECT_ROOT}\BRParamSet.xlsx</file>
+      <file>${PROJECT_ROOT}\CH.xlsx</file>
+      <file>${PROJECT_ROOT}\CHParamSet.xlsx</file>
+      <file>${PROJECT_ROOT}\CT.xlsx</file>
+      <file>${PROJECT_ROOT}\CTM_v_2_0_Help.pdf</file>
+      <file>${PROJECT_ROOT}\CTParamSet.xlsx</file>
+      <file>${PROJECT_ROOT}\DD.xlsx</file>
+      <file>${PROJECT_ROOT}\DDParamSet.xlsx</file>
+      <file>${PROJECT_ROOT}\DefaultRegionInfo.xlsx</file>
+      <file>${PROJECT_ROOT}\DL.xlsx</file>
+      <file>${PROJECT_ROOT}\DLParamSet.xlsx</file>
+      <file>${PROJECT_ROOT}\DN.xlsx</file>
+      <file>${PROJECT_ROOT}\DNParamSet.xlsx</file>
+      <file>${PROJECT_ROOT}\GA.xlsx</file>
+      <file>${PROJECT_ROOT}\GAParamSet.xlsx</file>
+      <file>${PROJECT_ROOT}\GJ.xlsx</file>
+      <file>${PROJECT_ROOT}\GJParamSet.xlsx</file>
+      <file>${PROJECT_ROOT}\HP.xlsx</file>
+      <file>${PROJECT_ROOT}\HPParamSet.xlsx</file>
+      <file>${PROJECT_ROOT}\HR.xlsx</file>
+      <file>${PROJECT_ROOT}\HRParamSet.xlsx</file>
+      <file>${PROJECT_ROOT}\IN.xlsx</file>
+      <file>${PROJECT_ROOT}\IndiaData.xlsx</file>
+      <file>${PROJECT_ROOT}\IndiaParamSet00.xlsx</file>
+      <file>${PROJECT_ROOT}\IndiaParamSet01.xlsx</file>
+      <file>${PROJECT_ROOT}\INParamSet.xlsx</file>
+      <file>${PROJECT_ROOT}\JH.xlsx</file>
+      <file>${PROJECT_ROOT}\JHParamSet.xlsx</file>
+      <file>${PROJECT_ROOT}\JK.xlsx</file>
+      <file>${PROJECT_ROOT}\JKParamSet.xlsx</file>
+      <file>${PROJECT_ROOT}\KA.xlsx</file>
+      <file>${PROJECT_ROOT}\KAParamSet.xlsx</file>
+      <file>${PROJECT_ROOT}\KL.xlsx</file>
+      <file>${PROJECT_ROOT}\KLParamSet.xlsx</file>
+      <file>${PROJECT_ROOT}\LA.xlsx</file>
+      <file>${PROJECT_ROOT}\LAParamSet.xlsx</file>
+      <file>${PROJECT_ROOT}\LD.xlsx</file>
+      <file>${PROJECT_ROOT}\LDParamSet.xlsx</file>
+      <file>${PROJECT_ROOT}\MH.xlsx</file>
+      <file>${PROJECT_ROOT}\MHParamSet.xlsx</file>
+      <file>${PROJECT_ROOT}\ML.xlsx</file>
+      <file>${PROJECT_ROOT}\MLParamSet.xlsx</file>
+      <file>${PROJECT_ROOT}\MN.xlsx</file>
+      <file>${PROJECT_ROOT}\MNParamSet.xlsx</file>
+      <file>${PROJECT_ROOT}\MP.xlsx</file>
+      <file>${PROJECT_ROOT}\MPParamSet.xlsx</file>
+      <file>${PROJECT_ROOT}\MZ.xlsx</file>
+      <file>${PROJECT_ROOT}\MZParamSet.xlsx</file>
+      <file>${PROJECT_ROOT}\NL.xlsx</file>
+      <file>${PROJECT_ROOT}\NLParamSet.xlsx</file>
+      <file>${PROJECT_ROOT}\OR.xlsx</file>
+      <file>${PROJECT_ROOT}\ORParamSet.xlsx</file>
+      <file>${PROJECT_ROOT}\PB.xlsx</file>
+      <file>${PROJECT_ROOT}\PBParamSet.xlsx</file>
+      <file>${PROJECT_ROOT}\PY.xlsx</file>
+      <file>${PROJECT_ROOT}\PYParamSet.xlsx</file>
+      <file>${PROJECT_ROOT}\RJ.xlsx</file>
+      <file>${PROJECT_ROOT}\RJParamSet.xlsx</file>
+      <file>${PROJECT_ROOT}\SampleActualData.xlsx</file>
+      <file>${PROJECT_ROOT}\SampleParameters.xlsx</file>
+      <file>${PROJECT_ROOT}\SampleRegionInfo.xlsx</file>
+      <file>${PROJECT_ROOT}\SK.xlsx</file>
+      <file>${PROJECT_ROOT}\SKParamSet.xlsx</file>
+      <file>${PROJECT_ROOT}\TG.xlsx</file>
+      <file>${PROJECT_ROOT}\TGParamSet.xlsx</file>
+      <file>${PROJECT_ROOT}\TN.xlsx</file>
+      <file>${PROJECT_ROOT}\TNParamSet.xlsx</file>
+      <file>${PROJECT_ROOT}\TR.xlsx</file>
+      <file>${PROJECT_ROOT}\TRParamSet.xlsx</file>
+      <file>${PROJECT_ROOT}\UP.xlsx</file>
+      <file>${PROJECT_ROOT}\UPParamSet.xlsx</file>
+      <file>${PROJECT_ROOT}\UT.xlsx</file>
+      <file>${PROJECT_ROOT}\UTParamSet.xlsx</file>
+      <file>${PROJECT_ROOT}\WB.xlsx</file>
+      <file>${PROJECT_ROOT}\WBParamSet.xlsx</file>
+    </fileset.package>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\AboutCovid19DialogBox.mlapp</file>
+      <file>${PROJECT_ROOT}\ChildrenIcon.jpg</file>
+      <file>${PROJECT_ROOT}\Covid19MainFnDeterministic.m</file>
+      <file>${PROJECT_ROOT}\Covid19MainFnMonteCarlo.m</file>
+      <file>${PROJECT_ROOT}\dyCovid19.m</file>
+      <file>${PROJECT_ROOT}\IITMLogo.png</file>
+      <file>${PROJECT_ROOT}\IndiaRegion.jpg</file>
+      <file>${PROJECT_ROOT}\Mid.png</file>
+      <file>${PROJECT_ROOT}\MiddleAgeIcon.jpg</file>
+      <file>${PROJECT_ROOT}\NumberAddedEveryDay.m</file>
+      <file>${PROJECT_ROOT}\Plot_Covid19_Results_Deterministic.m</file>
+      <file>${PROJECT_ROOT}\Plot_Covid19_Results_MonteCarlo.m</file>
+      <file>${PROJECT_ROOT}\population.png</file>
+      <file>${PROJECT_ROOT}\SeniorCitizenIcon.jpg</file>
+      <file>${PROJECT_ROOT}\SERBLogo.png</file>
+      <file>${PROJECT_ROOT}\shade.m</file>
+    </fileset.depfun>
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\Covid19TransmissionModel\for_testing" name="readme.txt" optional="true">C:\Users\Admin\Dropbox\Covid19\SEIR\Ver.11\Covid19TransmissionModel\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\Covid19TransmissionModel\for_testing" name="Covid19TransmissionModel.exe" optional="false">C:\Users\Admin\Dropbox\Covid19\SEIR\Ver.11\Covid19TransmissionModel\for_testing\Covid19TransmissionModel.exe</file>
+      <file location="${PROJECT_ROOT}\Covid19TransmissionModel\for_testing" name="splash.png" optional="false">C:\Users\Admin\Dropbox\Covid19\SEIR\Ver.11\Covid19TransmissionModel\for_testing\splash.png</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>D:\Program Files\MATLAB\R2020a</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
